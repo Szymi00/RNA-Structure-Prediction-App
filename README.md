@@ -4,4 +4,10 @@ The objective of this project was to develop a functional desktop application ca
 These features were designed to offer users a versatile tool for RNA structure prediction, catering to a wide range of research and practical applications in bioinformatics
 
 # Project assumptions
-
+- **Graphical User Interface (GUI)**: The application will feature a graphical user interface, facilitating user interaction through intuitive browsing and navigation.
+- **Versatile Input Data**: Users will be able to input RNA sequences of varying lengths, enabling flexible prediction of secondary structure for different types of sequences.
+- **Specific Loop Information**: The application will provide detailed information regarding specific loops in the RNA secondary structure, enhancing user understanding of prediction results.
+- **Configurable Minimum Loop Length Settings**: Users will have the ability to adjust the minimum loop length, allowing for more precise RNA structure prediction according to their preferences or research requirements.
+- **Inclusion of GU Pairs**: The application will allow for the inclusion of GU pairs in the RNA secondary structure prediction process, essential for prediction accuracy.
+- **Result Visualization in Dot-Bracket Format**: The resulting RNA secondary structure will be presented in dot-bracket format, facilitating user comprehension of the structure.
+- **Visualization of Obtained Structure Using Flat Graph**: Additionally, users will be able to visualize the obtained RNA structure using a flat graph, providing an additional layer of understanding and analysis of the results.
