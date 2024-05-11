@@ -1,4 +1,4 @@
-### Application for predicting the secondary structure of RNA using Nussinov's Algorithm
+# Application for predicting the secondary structure of RNA using Nussinov's Algorithm
 
 ## Table of contents
 * [Motivation](#motivation)
