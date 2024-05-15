@@ -4,6 +4,9 @@
 * [Motivation](#motivation)
 * [Project assumptions](#project-assumptions)
 * [Technologies](#technologies)
+* [Application overview](#application-overview)
+* [Usage](#usage)
+* [Examples of prediction](#examples-of-prediction)
   
 
   
@@ -25,3 +28,42 @@ These features were designed to offer users a versatile tool for RNA structure p
 - Tkinter: 8.6.12
 - draw_rna: 0.1.0
 - re:  2022.7.9
+
+# Application overview:
+Here is the list of available features:
+- **Graphical User Interface (GUI)**: An intuitive user interface facilitating RNA secondary structure prediction.
+- **Versatile Input Data**: Ability to input RNA sequences of varying lengths for flexible structure prediction.
+- **Customizable Settings**: Customizable minimum loop length settings allowing for precise RNA structure prediction.
+- **Support for GU Pairs**: Support for GU pairs in the RNA structure prediction process for increased accuracy.
+- **Detailed Structure Information**: Detailed information regarding individual loops in the RNA secondary structure.
+- **Structure Visualization**: Visualization of RNA structure in dot-bracket notation and via a flat graph.
+
+![GUI of the application](https://github.com/Szymi00/RNA-Structure-Prediction-App/blob/main/assets/images/GUI.jpg?raw=true)
+
+# Usage:
+1. Launch the application.
+2. Enter an RNA sequence in the designated input field.
+3. Adjust settings such as allowing GU pairs and setting the minimal loop length according to your requirements.
+4. Click the "Predict Structure" button to generate the secondary structure prediction.
+5. The predicted structure will be displayed in dot-bracket notation, along with detailed information on hairpin loops, bulge loops, internal loops, and external bases.
+6. Optionally, click the "Visualize Structure" button to view a graphical representation of the predicted structure using a flat graph.
+
+   
+# Examples of prediction:
+All sequences were taken from [Rfam database](https://rfam.org/).
+
+Example 1: Predicting RNA Secondary Structure for Sequence Homo sapiens tRNA RF00005:
+- GGUAAGAUGGCUGAGCAAAGCAUUAGACUGUAAAUCUAAAAACUCUCU
+  ![Result for tRNA RF0005](https://github.com/Szymi00/RNA-Structure-Prediction-App/blob/main/assets/images/example1.jpg?raw=true)
+  
+Example 2: Predicting RNA Secondary Structure for Sequence Ciona savignyi 5S ribosomal RNA RF00001:
+- GCUUAUCACCAUUCCAGAUUGAAUAUACCCGAUCUCGUCUGAUCUCGGAAGUCAAGCAAUCUCGUUUUACCA
+  ![Result for rRNA RF0001](https://github.com/Szymi00/RNA-Structure-Prediction-App/blob/main/assets/images/example2.jpg?raw=true)
+  
+Example 3: Predicting RNA Secondary Structure for Sequence Homo sapiens (human) Small nucleolar RNA Z39 RF00341:
+- GUGCAUGUGAUGAAGCAAAUCAGUAUGAAUGAAUUCAUGAUACUGUAAACGCUUUCUGAUGUA
+![Result for snRNA RF00341](https://github.com/Szymi00/RNA-Structure-Prediction-App/blob/main/assets/images/example3.jpg?raw=true)
+
+Example 4: Predicting RNA Secondary Structure for Sequence Homo sapiens (human) microRNA hsa-mir-103b precursor (hsa-mir-103b-2) RF00129:
+- UCAUAGCCCUGUACAAUGCUGCUUGACCUGAAUGCUACAAGGCAGCACUGUAAAGAAGCUGA
+  ![Result for miRNA RF00129](https://github.com/Szymi00/RNA-Structure-Prediction-App/blob/main/assets/images/example4.jpg?raw=true)
